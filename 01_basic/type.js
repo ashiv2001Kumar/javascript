@@ -35,4 +35,30 @@ const myFun = function(){
     console.log("hello world ")
 }
 myFun()
-console.log(typeof isLoggedIn)
+// console.log(typeof isLoggedIn)
+
+// *********************Stack(primitive) get the copy of declared variable 
+
+let myName = "Ashiv"
+
+let my2nd = myName
+my2nd = "anku"
+// console.log(my2nd)
+// console.log(myName)
+
+
+// , heap memory(non premitive) get the original ref ***************
+
+let userOne = {
+    email:"ashiv@google.com",
+    upi :"user@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "anku@google.com"
+console.log(userOne.email)
+console.log(userTwo.email)
+
+
+
+
