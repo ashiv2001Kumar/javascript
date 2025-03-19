@@ -8,11 +8,18 @@ accountEmail = "ashiv@123hcl.com"
 accountPassword ="8765"
 accountName ="abhi"
 
+
 // accountId = 983756278// constant variable cannot be changed 
 console.log(accountId)
 //  if we want to print all the  variable all at the same time 
 console.table([accountId,accountEmail,accountPassword,accountName,accountState])
 
+
+/*
+prefer not to use var variable 
+because of isue in block scope and functional scope
+*/
+// example below
 
 function myFun() {
     var x = 10 
