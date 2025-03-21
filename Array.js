@@ -1,4 +1,4 @@
-// const Arr = [1,2,3,4,5,5,6]
+const Arr = [1,2,3,4,5,5,6]
 // // console.log(Arr[0])
 // // const Fruits = ["apple","mango","pineapple","banana"]
 // // console.log(Fruits[2])
@@ -30,15 +30,16 @@
 
 // // join method join the array also converted it into string
 // console.log(Arr)
-// const NewArray = Arr.join()
-// console.log(typeof NewArray)
+const NewArray = Arr.join()
+console.log(NewArray)
+console.log(typeof NewArray)
 
 
 const  arry = [1,2,3,4,5,6]
-console.log(arry.reverse())
+// console.log(arry.reverse())
 
 
-console.log(arry.copyWithin(2,3,5))
+// console.log(arry.copyWithin(2,3,5))
 
 
 
