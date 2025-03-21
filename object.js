@@ -19,7 +19,7 @@ console.log(User1["email"])
 console.log(User1[mySym])
 
 User1.email = "ashiv@google.com"
-// if you want that no once can change the value of object use freeze method
+// if you want that no once can change the value of object use object.freeze method
 // Object.freeze(User1)
 console.log(User1)
 
@@ -28,7 +28,7 @@ User1.greeting = function(){
 }
 User1.greeting2 = function(){
     console.log(`hello how are you ${this.name}`)
-    // when you want to reference the same object use this to
+    // when you want to reference the same user object use (this) to
     // use that property
 }
 console.log(User1.greeting)//gives fucntion reference
