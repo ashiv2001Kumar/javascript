@@ -14,13 +14,13 @@ const arry2 =['d','e','f']
 // // console.log(arry4)
 
 const arry5 =[1,2,3,[4,5,6],7,[8,9,10,1,[7,8]]]
-console.log(arry5.flat(Infinity))
+// console.log(arry5.flat(Infinity))
 
 const arry6 = "hitesh"
 // console.log(arry6)
 // console.log(Array.isArray(arry6))
 
-console.log(Array.from(arry6))
+// console.log(Array.from(arry6))
 
 
 
@@ -32,9 +32,13 @@ const d =Array.of(a,b,c)
 
 console.log(d)
 const e = d.keys()
-for(const key  of e)
-    console.log(`${key} : ${d[key]}`)
+// for(const key  of e)
+//     console.log(`${key} : ${d[key]}`)
 
 const f = d.values()
-for(const value of f)
-    console.log(`${value}`)
+// for(const value of f)
+//     console.log(`${value}`)
+
+const x = [1,2,3,45]
+const y = x.map((i)=> i*2)
+console.log(y)
