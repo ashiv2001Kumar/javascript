@@ -45,13 +45,16 @@ const addtwo = (num1,num2 ) =>  (num1 + num2)
 
 // const  add = () => ({username : "Ashiv"})
 // console.log(add()) 
-
+// 
+// -----------------iife-------------------
 
 function add(){
     console.log("Hello world");
 }
 add();
 
+//IIFE stands for Immediately Invoked Function Expression. 
+// It is a function that executes immediately after it is defined.
 // (function greet(){
 //     console.log("hello ,Ashiv");
 // })();
