@@ -1,0 +1,89 @@
+document.getElementById ('id name')
+document.getElementById ('id name').innerHTML ='<></>'
+
+document.getElementById('title').id
+output :'title'
+
+document.getElementById('title').className
+output: ' heading'
+
+// get attribute is a method //
+document.getElementById('title').getAttribute('id')
+output :'title'
+
+
+ title.style.backgroundColor = "green" 
+'green'
+title.style.bordeRadius = "green" 
+'green'
+
+
+ title.innerText
+'learning dom from youtube' //only display the visisb;e text
+
+title.innerContent
+// display all the content and
+// also the content inside the style
+
+title.innerHTML
+//display all the content with html tag inisde it also displayed
+
+
+// --------------------------------------------------------------------
+
+document.querySelector('h1') 
+//give the first h1 on your page
+document.querySelector('#title')  // for id
+document.querySelector('.heading')  // for class
+document.querySelector('input[type ="password"]') 
+
+
+document.querySelector('ul')
+const MyList = document.querySelector('ul')
+MyList.querySelector('li')
+const color = MyList.querySelector('li')
+color.style.backgroundColor = 'green'
+New.innerText = 'Ashiv'
+output :'Ashiv'
+
+//--------------------------------------------------------
+// 2nd selector
+
+document.querySelectorAll('li')
+//nodelist  and html collection  is not a pure array 
+const New = document.querySelectorAll('li')
+undefined
+New
+NodeList(3) [li, li, li]
+New[0].style.color ='green'
+
+New.forEach(function(li) {
+    li.style.backgroundColor ='green'    
+})
+//---------------------------------
+
+const New = document.querySelectorAll('h1')
+New[1].style.color = 'green'
+// ---------------------------------------------------------
+
+//3rd selector: getElementsByClassName give html coleection
+document.getElementsByClassName('item-list')
+const list = document.getElementsByClassName('item-list')
+let New = Array.from(list)
+New[0].style.color = 'red'
+
+New.forEach(function (li) {
+    li.style.backgroundColor = 'green'
+})
+
+
+
+// example
+const myh3 = document.querySelectorAll('.mw-heading')
+myh3[6].innerText
+myh3.forEach( function (h2) {
+    h2.style.color = 'red';
+    h2.style.textAlign = 'center';
+    h2.style.backgroundColor = 'black';
+    h2.style.borderRadius = '15px'
+})
