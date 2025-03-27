@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM |  Relation </title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color: aliceblue;
+        }
+    </style>
+
+</head>
+<body  class=" bg-black">
+    <div class="parent">
+        <div class="day">Monday </div>
+        <div class="day">Tuesday </div>
+        <div class="day">Wednesday </div>
+        <div class="day">Thursday </div>
+    </div>
+    
+</body>
+<script>
+    const parent = document.querySelector('.parent')
+    // console.log(parent);
+    // console.log(parent.children);//give collection
+    // console.log(parent.children[1].innerHTML);//access element
+    // every element have a children
+
+    //parent does not give html collection only children gives
+
+    // let newarray = Array.from(parent.children)
+    // console.log(newarray.length)
+
+    // for (let i = 0; i < newarray.length; i++) {
+    //     console.log(newarray[i].innerHTML)
+        
+    // }
+
+//or//
+   // for (let i = 0; i < parent.children.length ; i++) {
+    //    console.log(parent.children[i].innerHTML);   
+   // }
+    parent.children[1].style.color = 'red'
+    //move from parent to child
+    // console.log(parent.firstElementChild)// to know the first elments of parent 
+    // console.log(parent.lastElementChild)// to know the last elements of parent
+
+    const dayone = document.querySelector('.day')
+    // console.log(dayone.parentElement)// move to parent 
+    // console.log(dayone.nextElementSibling)// move to its sibling
+
+    console.log('nodes',parent.childNodes)
+
+</script>
+</html>
